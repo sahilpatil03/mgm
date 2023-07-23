@@ -1,0 +1,86 @@
+body{
+  background-color: #f0eded;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f0d0d;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(248, 244, 244);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #080808;
+  }
+
+.left{
+         display: inline-block;
+         left: 22px;
+         top: 6px;
+         position: absolute;
+}
+ /* img {
+  height: 139px;
+  margin: 8px;
+ } */
+ .logo{
+  height: 139px;
+  margin: 8px;
+ }
+ .pos{
+  height: 514px;
+  padding: 13px;
+  margin: 20px;
+ }
+ #para{
+  height: 157px;
+  margin: 30px;
+  width: 781px;
+  color: #0a0909;
+ }
+ .container{
+  color: #081622;
+    border: 6px solid rgb(76 31 31);
+    margin: -433px 879px;
+    padding: 58px 100px;
+    width: 16%;
+    border-radius: 20px;
+    position: absolute;
+    display: inline-block;
+
+}
+.form1 input{
+  text-align: center;
+  display: block;
+  width: 196px;
+  padding: 16px;
+  border: 3px solid rgb(104 98 98);
+}
+.glow {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #110e0e, 0 0 20px #070606, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #0c0909, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
